@@ -13,6 +13,7 @@
 		E3AA976520818C3D00513EA3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3AA976320818C3D00513EA3 /* LaunchScreen.storyboard */; };
 		E3AA977020818C3D00513EA3 /* ConversionCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3AA976F20818C3D00513EA3 /* ConversionCalculatorTests.swift */; };
 		E3AA977B20818C3D00513EA3 /* ConversionCalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3AA977A20818C3D00513EA3 /* ConversionCalculatorUITests.swift */; };
+		E3AA97892081936D00513EA3 /* ConverterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3AA97882081936D00513EA3 /* ConverterViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		E3AA977620818C3D00513EA3 /* ConversionCalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConversionCalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3AA977A20818C3D00513EA3 /* ConversionCalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversionCalculatorUITests.swift; sourceTree = "<group>"; };
 		E3AA977C20818C3D00513EA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3AA97882081936D00513EA3 /* ConverterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConverterViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				E3AA976120818C3D00513EA3 /* Assets.xcassets */,
 				E3AA976320818C3D00513EA3 /* LaunchScreen.storyboard */,
 				E3AA976620818C3D00513EA3 /* Info.plist */,
+				E3AA97882081936D00513EA3 /* ConverterViewController.swift */,
 			);
 			path = ConversionCalculator;
 			sourceTree = "<group>";
@@ -254,6 +257,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E3AA975B20818C3900513EA3 /* AppDelegate.swift in Sources */,
+				E3AA97892081936D00513EA3 /* ConverterViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
